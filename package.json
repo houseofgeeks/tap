@@ -1,0 +1,16 @@
+{
+  "name": "dummy",
+  "version": "1.0.0",
+  "description": "This is a MERN template",
+  "main": "",
+  "author": "Yash Pandey",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others \"yarn client\" \"yarn server\"",
+    "client": "cd client && yarn start",
+    "server": "cd server && yarn dev"
+  }
+}
