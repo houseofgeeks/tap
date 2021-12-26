@@ -1,8 +1,12 @@
+
+![iiitr-logo](./assets/img/iiitr-logo.png)
+
 # Training and Placement Cell, IIIT Ranchi Web App
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 
 This repo consists of the source code for website of TAP,
 the Training and Placement Cell of
@@ -11,20 +15,35 @@ the Training and Placement Cell of
 ## Getting started
 
 - Fork the repository.
+
 - Clone the repo
    ```sh
-   git clone https://github.com/your_username_/tap.git
+   git clone https://github.com/<YOUR_USERNAME>/tap.git
    ```
+
 - Open your terminal/cmd in the `tap/client` folder
+
 - Install yarn
    ```sh
    npm install --global yarn
    ```
+
 - Install dependencies
    ```sh
-   yarn install
+   yarn
    ```
+
 - Run `yarn start` to start the development server.
+
+## Contributing Guide
+
+- The tab indentation size is 4 (whitespaces) for this project.
+- We use MERN stack for the project.
+- The `/client` folder is the main directory for Create React App.
+- The `/server` folder is the main directory for the express server (backend).
+
+For more details, kindly go through our
+[Contributing Guidelines.](CONTRIBUTING.md)
 
 ## Code of Conduct
 
@@ -35,17 +54,6 @@ into a single project. This is only possible if we respect each other.
 Kindly go through our
 [Code of Conduct](CODE_OF_CONDUCT.md)
 to take a moment and familiarise with the spirit of opensource.
-
-## Contributing Guide
-
-If you're have worked on the front-end part make PR to the front-end branch
-and same goes for the back-end too.
-
-### PR rules:
-- Kindly follow the Pull Request template provided.
-
-For more details kindly go through our
-[Contributing Guidelines.](CONTRIBUTING.md)
 
 ## Contributors ✨
 
