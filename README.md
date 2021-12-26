@@ -1,4 +1,4 @@
-# House of Geeks - Official Technical Communtiy of IIITR
+# Training and Placement Cell, IIIT Ranchi Web App
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
