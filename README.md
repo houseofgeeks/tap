@@ -47,11 +47,11 @@ For more details kindly go through our
 
 <p align="center">
     <!-- built-by-dev -->
-    <a href="">
+    <a href="https://github.com/houseofgeeks">
     <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/built-by-developers.svg" alt="built-by-developers" />
     </a>
     <!-- built-with-heart -->
-    <a href="">
+    <a href="https://github.com/houseofgeeks">
     <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/built-with-heart.svg" alt="built-with-heart" />
     </a>
  </p>
