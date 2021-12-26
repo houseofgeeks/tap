@@ -4,8 +4,9 @@ This repo consists of the source code for website of Training And Placement Cell
 <p align="center">
   <img src="https://media.giphy.com/media/dxn6fRlTIShoeBr69N/giphy.gif" width="100px">
 </p>
-
-![](https://still-brushlands-82734.herokuapp.com/countercheck)
+<p align="center">
+  ![](https://still-brushlands-82734.herokuapp.com/countercheck)
+</p>
 
 ## Tech Stack🧑‍💻
 
@@ -44,12 +45,13 @@ For more details kindly go through our
 
 
 
-
-<!-- built-by-dev -->
-  <a href="">
+<p align="center">
+    <!-- built-by-dev -->
+    <a href="">
     <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/built-by-developers.svg" alt="built-by-developers" />
-  </a>
-<!-- built-with-heart -->
-  <a href="">
+    </a>
+    <!-- built-with-heart -->
+    <a href="">
     <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/built-with-heart.svg" alt="built-with-heart" />
-  </a>
+    </a>
+ </p>
