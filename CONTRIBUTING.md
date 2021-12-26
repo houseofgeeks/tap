@@ -22,6 +22,8 @@
 3. Checkout to local's `dev` branch. And create a new branch with the name of your feature (eg. `docs`):
     ```bash
     git checkout dev
+    git pull upstream dev
+    git push origin dev
     git checkout -b <FEATURE_NAME>
     ```
 
@@ -46,6 +48,15 @@ This should look something like this:
 
 8. Wait for the maintainer to review your code.
 If you need to make some changes, commit and push to `<YOUR_USERNAME>:<FEATURE_NAME>`.
+
+9. Delete `<YOUR_USERNAME>:<FEATURE_NAME>` branch **after** the PR is merged or is out of scope.
+    ```bash
+    git checkout dev
+    git push -d origin <FEATURE_NAME>
+    git branch -d <FEATURE_NAME>
+    ```
+
+10. Repeat from step 3 for a new PR.
 
 And you're done!
 
