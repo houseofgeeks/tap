@@ -4,7 +4,7 @@
 - If you're have worked on the front-end part make PR (Pull Request) to the 
 front-end branch and same goes for the back-end too.
 
-Please note we have a [Code of Conduct]() 
+Please note we have a [Code of Conduct]("https://github.com/anish853/tap/blob/main/CODE_OF_CONDUCT.md") 
 , please follow it in all your interactions with the project.
 
 ## Pull Request Process
