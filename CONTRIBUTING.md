@@ -13,6 +13,8 @@
 
 2. Now, clone `<YOUR_USERNAME>/tap` and add `houseofgeeks/tap` as the upstream:
     ```bash
+    git clone https://github.com/<YOUR_USERNAME>/tap.git
+    cd tap
     git remote add upstream https://github.com/houseofgeeks/tap.git
     git fetch upstream
     ```
@@ -38,6 +40,9 @@
 
 7. Create a PR
 **from `<YOUR_USERNAME>:<FEATURE_NAME>` to `houseofgeeks:dev`** (Very important step)
+This should look something like this:
+
+    ![pr-demo](./assets/img/pr-demo.png)
 
 8. Wait for the maintainer to review your code.
 If you need to make some changes, commit and push to `<YOUR_USERNAME>:<FEATURE_NAME>`.
