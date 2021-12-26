@@ -37,3 +37,19 @@ For more details kindly go through our
 [Contributing Guidelines.](CONTRIBUTING.md)
 
 ## Contributors✨
+
+
+
+
+
+
+
+
+<!-- built-by-dev -->
+  <a href="">
+    <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/built-by-developers.svg" alt="built-by-developers" />
+  </a>
+<!-- built-with-heart -->
+  <a href="">
+    <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/built-with-heart.svg" alt="built-with-heart" />
+  </a>
