@@ -1,4 +1,8 @@
 # Training And Placement Cell - IIITR
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 This repo consists of the source code for website of Training And Placement Cell of [Indian Institute of Information Technology, Ranchi.](https://iiitranchi.ac.in/)
 
 <p align="center">
