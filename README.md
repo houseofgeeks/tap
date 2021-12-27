@@ -1,4 +1,4 @@
-![iiitr-logo](./assets/img/iiitr-logo.png)
+![iiitr-logo](./assets/iiitr-logo.png)
 # Training And Placement Cell - IIITR
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
