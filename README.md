@@ -31,7 +31,7 @@ the Training and Placement Cell of
    yarn
    ```
 
-- Run `yarn start` to start the development server.
+- Run `yarn dev` to start the development server.
 
 ## Contributing Guide
 
