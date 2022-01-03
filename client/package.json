@@ -1,7 +1,7 @@
 {
   "name": "client",
-  "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -14,18 +14,24 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+=======
+>>>>>>> ada7cf2244e9672ca1c8dfb2723b8c89c2864e49
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.1",
+    "@mui/material": "^5.2.3",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
+<<<<<<< HEAD
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,3 +51,10 @@
   "license": "ISC",
   "description": ""
 }
+=======
+  "devDependencies": {
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
+>>>>>>> ada7cf2244e9672ca1c8dfb2723b8c89c2864e49
