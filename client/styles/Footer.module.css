@@ -32,17 +32,17 @@
 .padding{
     padding: 30px 120px;
 }
-@media (max-width: 1060px){
+@media (max-width: 1300px){
     .wide{
         width: 150vw;
     }
 }
-@media (max-width: 780px){
+@media (max-width: 880px){
     .padding{
         padding: 30px 80px;
     }
 }
-@media (max-width: 450px){
+@media (max-width: 720px){
     .wide{
         width: 220vw;
     }

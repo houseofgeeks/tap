@@ -14,7 +14,7 @@ export default function Footer() {
   };
 
   return (
-    <div style={{ backgroundColor: "#25477A", marginTop: "30rem" }} className={styles.wide}>
+    <div style={{ backgroundColor: "#25477A" }} className={styles.wide}>
       <div
         style={{
           padding: "0.5rem",
