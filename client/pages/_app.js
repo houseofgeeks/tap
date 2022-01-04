@@ -1,5 +1,6 @@
+import React,{useState} from "react";
 // styling
-import '../styles/globals.css'
+import '../styles/app.scss'
 
 // theming
 import { ThemeProvider } from '@mui/material/styles';
@@ -9,8 +10,10 @@ import theme from '../theme/theme';
 import { Footer, Navbar } from '../components';
 
 function MyApp({ Component, pageProps }) {
+    //states
+    const [navStatus,setNavStatus]=useState(false);
     return <ThemeProvider theme={theme}>
-        <Navbar />
+        <Navbar navStatus={navStatus} setNavStatus={setNavStatus} />
         <Component {...pageProps} />
         <Footer />
     </ThemeProvider>
