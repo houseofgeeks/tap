@@ -35,16 +35,51 @@
     padding: 30px 120px;
 }
 @media (max-width: 1300px){
+    .padding{
+        padding: 25px 90px;
+    }
     .wide{
         width: 150vw;
+    }
+    .class{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .heading{
+        padding: 10px;
+        font-size: 24px;
     }
 }
 @media (max-width: 880px){
     .padding{
-        padding: 25px 80px;
+        padding: 25px 60px;
+    }
+    .class{
+        padding: 8px;
+        font-size: 20px;
+    }
+    .heading{
+        padding: 8px;
+        font-size: 24px;
     }
 }
-@media (max-width: 700px){
+@media (max-width: 750px){
+    .wide{
+        width: 160vw;
+    }
+    .padding{
+        padding: 20px 20px;
+    }
+    .class{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .heading{
+        padding: 10px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 580px){
     .wide{
         width: 220vw;
     }
