@@ -1,5 +1,5 @@
 nav{
-    width: 100vw;    
+    width: 100%;    
     display: flex;
     flex-direction: column;
     .upperNav{
@@ -7,7 +7,6 @@ nav{
         flex-direction: row;
         //justify-content: flex-start;
         height: 13vh;
-        width: 100vw;
         align-items: center;
         padding-left: 10%;
         font-weight: 400px;
@@ -88,6 +87,7 @@ nav{
 
 @media screen and (max-width:1080px){
     body{
+        overflow-x: hidden;
         font-size: 70%;
     }
     nav{
@@ -97,16 +97,20 @@ nav{
     
         }
         .logo{
+            margin-left: -3rem;
             img{
-                width: 50%;
+                width: 60%;
                 padding-right: 2rem;
                 height: 60px;
-                width: 97.5px;
+                width: 92.5px;
             }
         }
         .nav-links{
             margin-top: 0%;
         }
+    }
+    .burger{
+        margin-right: 1rem;
     }
 
 }
@@ -120,20 +124,37 @@ nav{
     .upperNav{
         text-align: center;
         background: rgb(193, 203, 223);
-
+        width: 100vw;
     }
     .logo{
-        margin-left: 0rem;
-        margin-right: .3rem;
-        width: 1%;
+        margin-left: -3rem;
+        margin-right: 1rem;
+        
         img{
-            width: 30%;
+            width: 20%;
+            margin-left: -3rem;
         }
     }
+    
     nav{
         .nav-links{
             background: cadetblue;
+        }
+    }
+        .nav-links{
+            position: absolute;
+            right: 0px;
+            top: 0vh;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 60%;
+            transform: translateX(100%);
+            transition: transform 0.5s ease-in;
+            
             li{
+               
                 .home{
                     color: rgb(245, 243, 247);
                     margin-top: 2rem;
@@ -141,23 +162,8 @@ nav{
             }
             z-index: 4;
         }
-    }
-    .nav-links{
-        position: absolute;
-        right: 0px;
-        width: 50%;
-        height: 70vh;
-        top: 1vh;       
-        display: flex;
-        flex-direction: column;        
-        align-items: center;
-        transform: translate(100%);
-        transition: transform 0.5s ease-in;
-        li{
-            opacity: 1; 
-            padding-top: 0%;          
-        }        
-    }
+    
+          
     .burger{
         display: block;
         z-index: 5;
@@ -166,7 +172,7 @@ nav{
 }
 
 .nav-active{
-    transform: translate(0%);
+    transform: translateX(0%);
 }
 
 

@@ -11,6 +11,7 @@ export default function Footer() {
   const style = {
     color: "white",
     backgroundColor: "#25477A",
+  
   };
 
   return (
