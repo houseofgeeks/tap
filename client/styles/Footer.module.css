@@ -1,0 +1,97 @@
+.class{
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+.heading{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+.class:hover{
+    text-decoration: underline;
+}
+.copyright{
+    font-family: "Roboto Mono";
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+.space{
+    margin-right: 5px;
+
+}
+.wide{
+    width: 100vw;
+}
+.padding{
+    padding: 30px 120px;
+}
+@media (max-width: 1300px){
+    .padding{
+        padding: 25px 90px;
+    }
+    .wide{
+        width: 150vw;
+    }
+    .class{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .heading{
+        padding: 10px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 880px){
+    .padding{
+        padding: 25px 60px;
+    }
+    .class{
+        padding: 8px;
+        font-size: 20px;
+    }
+    .heading{
+        padding: 8px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 750px){
+    .wide{
+        width: 160vw;
+    }
+    .padding{
+        padding: 20px 20px;
+    }
+    .class{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .heading{
+        padding: 10px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 580px){
+    .wide{
+        width: 220vw;
+    }
+    .padding{
+        padding: 20px 20px;
+    }
+    .class{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .heading{
+        padding: 10px;
+        font-size: 24px;
+    }
+}
