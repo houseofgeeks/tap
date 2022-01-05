@@ -1,4 +1,5 @@
-nav{    
+nav{
+    width: 100vw;    
     display: flex;
     flex-direction: column;
     .upperNav{
@@ -6,11 +7,12 @@ nav{
         flex-direction: row;
         //justify-content: flex-start;
         height: 13vh;
+        width: 100vw;
         align-items: center;
         padding-left: 10%;
         font-weight: 400px;
         .logo{
-            margin-top: 1%;
+            margin-top: 1.2%;
             
             img{
                 min-width: 5rem;
@@ -56,6 +58,10 @@ nav{
             color: white;
             font-weight: bold;
             font-size: .8rem;
+            &:hover{
+                color: rgb(201, 201, 245);
+            }
+            z-index: 7;
         }
         .home{
             color:#2196F3;
@@ -124,25 +130,38 @@ nav{
             width: 30%;
         }
     }
+    nav{
+        .nav-links{
+            background: cadetblue;
+            li{
+                .home{
+                    color: rgb(245, 243, 247);
+                    margin-top: 2rem;
+                }
+            }
+            z-index: 4;
+        }
+    }
     .nav-links{
         position: absolute;
         right: 0px;
         width: 50%;
-        height: 92vh;
-        top: 1vh;
-        background-color: #25477A;
+        height: 70vh;
+        top: 1vh;       
         display: flex;
         flex-direction: column;        
         align-items: center;
         transform: translate(100%);
         transition: transform 0.5s ease-in;
         li{
-            opacity: 1;           
+            opacity: 1; 
+            padding-top: 0%;          
         }        
     }
     .burger{
         display: block;
         z-index: 5;
+        padding-right: 0.6rem;
     }
 }
 

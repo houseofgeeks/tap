@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 // styling
-import '../styles/app.scss'
+import '../styles/app.scss';
+import '../styles/globals.css';
 
 // theming
 import { ThemeProvider } from '@mui/material/styles';

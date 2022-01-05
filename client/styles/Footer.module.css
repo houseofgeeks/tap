@@ -35,15 +35,18 @@
     padding: 30px 120px;
 }
 @media (max-width: 1300px){
+    
     .padding{
         padding: 25px 90px;
     }
     .wide{
-        width: 150vw;
+        width: 100vw;
     }
     .class{
         padding: 10px;
-        font-size: 20px;
+        font-size: 16px;
+        margin-bottom: -0.3rem;
+        
     }
     .heading{
         padding: 10px;
@@ -56,7 +59,8 @@
     }
     .class{
         padding: 8px;
-        font-size: 20px;
+        font-size: 15px;
+        margin-bottom: -0.3rem;
     }
     .heading{
         padding: 8px;
@@ -65,33 +69,40 @@
 }
 @media (max-width: 750px){
     .wide{
-        width: 160vw;
+        width: 100vw;
     }
     .padding{
         padding: 20px 20px;
     }
     .class{
         padding: 10px;
-        font-size: 20px;
+        font-size: 15px;
+        height: 7vh;
     }
     .heading{
-        padding: 10px;
+        padding-left: 10px;
         font-size: 24px;
     }
 }
 @media (max-width: 580px){
     .wide{
-        width: 220vw;
+        width: 100vw;
     }
     .padding{
-        padding: 20px 20px;
+        padding-left: 0px;
+    }
+    .Footer_heading__ka1i8{
+        padding-left: 0rem;
     }
     .class{
-        padding: 10px;
-        font-size: 20px;
+        padding: 0px;
+        font-size: 0.6rem;
+        height: 7vh;
+        
     }
     .heading{
-        padding: 10px;
+        padding-left: 0rem;
         font-size: 24px;
+        
     }
 }
