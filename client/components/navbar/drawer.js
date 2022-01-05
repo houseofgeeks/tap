@@ -2,7 +2,6 @@ import {React, useState } from "react";
 import {
     Divider,
   Drawer,
-  IconButton,
   List,
   ListItem,
   ListItemText,
@@ -11,20 +10,20 @@ import { makeStyles } from '@mui/styles';
 import MenuIcon from "@mui/icons-material/Menu";
 
 
-
 const useStyles = makeStyles(()=>({
     div:{
         textDecoration:"none",
         color: "blue",
-        fontSize: "20px",
+        fontSize: "10px",
     },
     icon:{
-        color: "white"
+        color: "white",
+        fontSize: "20px",
     }
 }));
 
 function DrawerComponent() {
-    const classes = useStyles();
+  const classes = useStyles();
   const [openDrawer, setOpenDrawer] = useState(false);
   return (
     <>
@@ -50,29 +49,32 @@ function DrawerComponent() {
               <div className={classes.div}>COURSES</div>
             </ListItemText>
           </ListItem>
+          <Divider/>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
               <div className={classes.div}>CELLS</div>
             </ListItemText>
           </ListItem>
+          <Divider/>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
               <div className={classes.div}>GALLERY</div>
             </ListItemText>
           </ListItem>
+          <Divider/>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
               <div className={classes.div}>CONTACT US</div>
             </ListItemText>
           </ListItem>
           <Divider/>
-          <Divider/>
         </List>
       </Drawer>
-      <IconButton onClick={() => setOpenDrawer(!openDrawer)}className={classes.icon}>
-        <MenuIcon />
-      </IconButton>
+      <div onClick={() => setOpenDrawer(!openDrawer)} >
+        <MenuIcon className={classes.icon}/>
+      </div>
     </>
   );
 }
+
 export default DrawerComponent;
