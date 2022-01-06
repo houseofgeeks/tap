@@ -89,18 +89,20 @@
         width: 100vw;
     }
     .padding{
-        padding-left: 0.5px;
+        padding: 1rem;
     }
     
     .class{
-        padding: 0.9px;
+        margin-left: 1rem;
+        
         font-size: 0.6rem;
         height: 7vh;
+        justify-content: center;
         
     }
     .heading{
-        padding-left: 0rem;
-        font-size: 19px;
+        padding-left: 1rem;
+        font-size: 15px;
         
     }
 }

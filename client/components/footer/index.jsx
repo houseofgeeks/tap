@@ -30,7 +30,7 @@ export default function Footer() {
         }}
         className={styles.wide}
       >
-        <div className={styles.padding}>
+        <div className={styles.padding} style={{marginLeft: "0px"}}>
           <div className={styles.heading}>Quick Access</div>
           <div className={styles.class}>
             <Link
@@ -88,7 +88,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className={styles.padding}>
+        <div className={styles.padding} style={{marginLeft: "-18px"}}>
           <div className={styles.heading}>Students Corner</div>
           <div className={styles.class}>
             <Link
@@ -124,9 +124,9 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className={styles.padding}>
-          <div className={styles.heading} style={{marginLeft: "37px"}}>Get In Touch</div>
-          <div className={styles.class}>
+        <div className={styles.padding} >
+          <div className={styles.heading} style={{marginLeft:"-20px"}}>Get In Touch</div>
+          <div className={styles.class} style={{marginLeft:"-20px"}}>
             <EmailIcon style={{marginRight: "15px"}}/>
             <Link
               underline="none"
@@ -138,7 +138,7 @@ export default function Footer() {
               tap@iiitranchi.ac.in
             </Link>
           </div>
-          <div className={styles.class}>
+          <div className={styles.class} style={{marginLeft:"-20px"}}>
             <EmailIcon style={{marginRight: "15px"}} />
             <Link
               underline="none"
@@ -150,7 +150,7 @@ export default function Footer() {
               tpo@iiitranchi.ac.in
             </Link>
           </div>
-          <div className={styles.class}>
+          <div className={styles.class} style={{marginLeft:"-20px"}}>
             <LinkedInIcon style={{marginRight: "15px"}}/>
             <Link
               underline="none"
