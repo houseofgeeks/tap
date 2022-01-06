@@ -45,7 +45,7 @@ export default function Navbar({navStatus,setNavStatus}) {
             </li>
             <li>
               <a href="#statistics">
-                <div>PLACEMENT STATISTICS</div>
+                <div>STATISTICS</div>
               </a>{" "}
             </li>
             <li>
