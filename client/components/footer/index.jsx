@@ -23,7 +23,7 @@ export default function Footer() {
           flexDirection: "row",
           backgroundColor: "#25477A",
           height: "26.3rem",
-          fontFamily: "DM Sans",
+          fontFamily: ("DM Sans" , "sans-serif"),
           textAlign: "left",
           justifyContent: "center",
           paddingTop: "40px",

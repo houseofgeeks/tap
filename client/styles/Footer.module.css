@@ -18,7 +18,7 @@
     text-decoration: underline;
 }
 .copyright{
-    font-family: "Roboto Mono";
+    font-family: "Roboto Mono" , sans-serif;
     color: white;
     text-align: center;
     font-size: 14px;
