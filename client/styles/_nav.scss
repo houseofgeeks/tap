@@ -83,7 +83,7 @@ nav {
 @media screen and (max-width:1186px) and (min-width:839px){
   body {
     overflow-x: hidden;
-    font-size: 44%;
+    font-size: 90%;
   }
   .upperNav{
     align-items: center;
@@ -92,7 +92,7 @@ nav {
       margin-left: -3rem;
       margin-right: 2rem;
       img{
-        width: 80%;
+        width: 50%;
       }
     }
   }
@@ -129,7 +129,7 @@ nav {
     ul {
       -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-      position: absolute;
+      position: fixed;
       left: 100%;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -177,13 +177,12 @@ nav {
     background: rgb(193, 203, 223);
   }
   .logo {
-    margin-left: -3rem;
-    margin-right: 2rem;
-
-    img {
-      width: 20%;
-      margin-left: -3rem;
-      margin-right: 2rem;
+    margin-left: -3.2rem;
+    margin-right: 2.25rem;
+    img{
+     // width: 4%;
+      height: 60px;
+      width: 60px;
     }
   }
   nav {
@@ -196,22 +195,23 @@ nav {
     ul {
       -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-      position: absolute;
+      position: fixed;
       left: 100%;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
       background: #be3e3e;
-      width: 50%;
+      width: 60%;
       height: 100%;
-      //overflow: auto;
+      overflow: auto;
       -webkit-transition: left 0.4s;
       -o-transition: left 0.4s;
       transition: left 0.4s;
       align-items: center;
       li {
-        
+        align-items: center;
+        margin-right: 30%;
         .home {
           margin-top: 2rem;
           font-size: 1rem;
