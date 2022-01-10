@@ -3,9 +3,6 @@ import React from "react";
 import styles from "../../styles/Footer.module.css";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import MobDesign from "./MobDesign";
-// import LaptopDesign from "./LaptopDesign";
-// import TabDesign from "./TabDesign";
 
 export default function Footer() {
   const style = {
@@ -14,7 +11,7 @@ export default function Footer() {
   };
 
   return (
-    <div style={{ backgroundColor: "#25477A" }} className={styles.wide}>
+    <div style={{ backgroundColor: "#25477A", overflow:"hidden" }} className={styles.wide}>
       <div
         style={{
           padding: "0.5rem",
