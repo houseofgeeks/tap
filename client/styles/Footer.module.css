@@ -29,7 +29,8 @@
 
 }
 .wide{
-    width: 100vw;
+    overflow: hidden;
+    width: 98.9vw;
 }
 .padding{
     padding: 30px 120px;
@@ -39,7 +40,7 @@
         padding: 25px 90px;
     }
     .wide{
-        width: 150vw;
+        width: 100vw;
     }
     .class{
         padding: 10px;
@@ -54,6 +55,9 @@
     .padding{
         padding: 25px 60px;
     }
+    .wide{
+        width: 100vw;
+    }
     .class{
         padding: 8px;
         font-size: 20px;
@@ -65,7 +69,7 @@
 }
 @media (max-width: 750px){
     .wide{
-        width: 160vw;
+        width: 100vw;
     }
     .padding{
         padding: 20px 20px;
@@ -81,7 +85,7 @@
 }
 @media (max-width: 580px){
     .wide{
-        width: 220vw;
+        width: 99vw;
     }
     .padding{
         padding: 20px 20px;

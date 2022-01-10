@@ -11,7 +11,7 @@ export default function Footer() {
   };
 
   return (
-    <div style={{ backgroundColor: "#25477A" }} className={styles.wide}>
+    <div style={{ backgroundColor: "#25477A", overflow:"hidden" }} className={styles.wide}>
       <div
         style={{
           padding: "0.5rem",

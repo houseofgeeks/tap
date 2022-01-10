@@ -11,7 +11,7 @@ import {
   const useStyles = makeStyles((theme) => ({
     navbar:{  
       backgroundColor: "#25477A",
-      height: "35px",
+      height: "50px",
       display: "flex",
       flexDirection: "row",
       justifyContent: "flexStart",
@@ -39,7 +39,8 @@ import {
     navlinks: {
       marginLeft: 0,
       display: "flex",
-      flexDirection: "row"
+      flexDirection: "row",
+      height:"35px",
     },
     link: {
       fontWeight: 500,
@@ -167,7 +168,7 @@ import {
         </div>
       </div>
       
-      <AppBar position="static" className={classes.navbar}>
+      <AppBar position="static" style={{padding: "0px, 0px, 0px, 0px"}}className={classes.navbar}>
         <CssBaseline />
         <Toolbar>
           {isMobile ? (
