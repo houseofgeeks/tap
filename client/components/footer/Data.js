@@ -49,8 +49,8 @@ const Data=[
         link3: "",
         link4: "",
         link5: "",
-        icon: <EmailIcon className={styles.icon} sx={{fontSize:"2.8vh"}}/>,
-        icon2: <LinkedInIcon className={styles.icon} sx={{fontSize:"2.8vh"}}/>,
+        icon: <EmailIcon className={styles.icon} sx={{fontSize:"2.5vw"}}/>,
+        icon2: <LinkedInIcon className={styles.icon} sx={{fontSize:"2.5vw"}}/>,
     },
 ]
 
