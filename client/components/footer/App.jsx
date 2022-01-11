@@ -43,9 +43,9 @@ export default function App() {
       >
         {Data.map(group)}
       </Grid>
-      <Typography className={styles.footer} sx={{color: "white"}}>
+      <div className={styles.footer} sx={{color: "white"}}>
       © Indian Institute of Information Technology Ranchi 2022
-      </Typography>
+      </div>
     </>
   );
 }
