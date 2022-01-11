@@ -1,6 +1,8 @@
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import styles from "../../styles/Footer.module.css"
+
+
 const Data=[
     {
         id : 1,
@@ -47,8 +49,8 @@ const Data=[
         link3: "",
         link4: "",
         link5: "",
-        icon: <EmailIcon className={styles.icon} sx={{fontSize:"0.8rem"}}/>,
-        icon2: <LinkedInIcon className={styles.icon} sx={{fontSize:"0.8rem"}}/>,
+        icon: <EmailIcon className={styles.icon} sx={{fontSize:"2.8vh"}}/>,
+        icon2: <LinkedInIcon className={styles.icon} sx={{fontSize:"2.8vh"}}/>,
     },
 ]
 
