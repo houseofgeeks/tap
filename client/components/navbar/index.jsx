@@ -53,6 +53,7 @@ import {
       fontFamily: "Poppins",
       "&:hover": {
         color: "#2196F3",
+        cursor: "pointer"
     },
   },
 

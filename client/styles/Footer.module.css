@@ -1,101 +1,83 @@
-.class{
-    padding: 10px;
+.link{
     color: white;
-    font-size: 16px;
-    font-weight: 300;
-    display: flex;
-    flex-direction: row;
-    overflow-x: hidden;
 }
-.heading{
-    padding: 10px;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    overflow-x: hidden;
-}
-.class:hover{
+
+.link:hover{
     text-decoration: underline;
 }
-.copyright{
-    font-family: "Roboto Mono";
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    padding: 10px;
-}
-.space{
-    margin-right: 5px;
 
+.grid{
+    font-size: 1rem;
+    background-color: #25477A;
+    height: 21rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    font-family: "DM Sans";
 }
-.wide{
-    overflow: hidden;
-    width: 98.9vw;
+
+.title{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
 }
-.padding{
-    padding: 30px 120px;
+.icon{
+    margin-right: 15px;
 }
-@media (max-width: 1300px){
-    .padding{
-        padding: 25px 90px;
-    }
-    .wide{
-        width: 100vw;
-    }
-    .class{
-        padding: 10px;
-        font-size: 20px;
-    }
-    .heading{
-        padding: 10px;
-        font-size: 24px;
-    }
+.footer{
+    color: white;
+    background-color: #25477A;
+    text-align: center;
+    font-family: "Roboto Mono";
+    height: 3rem;
+    font-size: 1rem;
 }
-@media (max-width: 880px){
-    .padding{
-        padding: 25px 60px;
+@media (max-width:800px) {
+    .grid{
+        padding: 2rem;
+        font-size: 0.8rem;
     }
-    .wide{
-        width: 100vw;
+    .title{
+        font-size: 1rem;
     }
-    .class{
-        padding: 8px;
-        font-size: 20px;
-    }
-    .heading{
-        padding: 8px;
-        font-size: 24px;
-    }
+    .footer{
+        font-size: 0.85rem;
+    }    
 }
-@media (max-width: 750px){
-    .wide{
-        width: 100vw;
+@media (max-width:600px) {
+    .grid{
+        padding: 1.6rem;
+        font-size: 0.8rem;
     }
-    .padding{
-        padding: 20px 20px;
+    .title{
+        font-size: 1rem;
     }
-    .class{
-        padding: 10px;
-        font-size: 20px;
+    .icon{
+        margin-right: 10px;
+        font-size: 1.2rem;
+        /* padding-top: 6px; */
     }
-    .heading{
-        padding: 10px;
-        font-size: 24px;
-    }
+    .footer{
+        font-size: 0.7rem;
+    }   
 }
-@media (max-width: 580px){
-    .wide{
-        width: 99vw;
+@media (max-width:510px) {
+    .grid{
+        padding: 1.2rem;
+        font-size: 0.5rem;
+        height: 15rem;
     }
-    .padding{
-        padding: 20px 20px;
+    .title{
+        font-size: 0.7rem;
     }
-    .class{
-        padding: 10px;
-        font-size: 20px;
+    .icon{
+        margin-right: 6px;
+        font-size: 0.8rem;
+        /* padding-top: 4px; */
     }
-    .heading{
-        padding: 10px;
-        font-size: 24px;
-    }
+    .footer{
+        font-size: 0.5rem;
+    }   
+    
+    
+    
 }
