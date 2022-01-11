@@ -39,10 +39,11 @@ export default function App() {
         justifyContent="center"
         alignItems="left"
         className={styles.grid}
+        sx={{color:"white"}}
       >
         {Data.map(group)}
       </Grid>
-      <Typography className={styles.footer}>
+      <Typography className={styles.footer} sx={{color: "white"}}>
       © Indian Institute of Information Technology Ranchi 2022
       </Typography>
     </>

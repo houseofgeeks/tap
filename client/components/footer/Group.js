@@ -25,6 +25,7 @@ export default function Group(props) {
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
+            sx={{color:"white"}}
           >
             <div style={{display:"flex",flexDirection:"row"}}>
               {props.icon}
@@ -40,6 +41,7 @@ export default function Group(props) {
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
+            sx={{color:"white"}}
           >
             <div style={{display:"flex",flexDirection:"row"}}>
               {props.icon}
@@ -55,6 +57,7 @@ export default function Group(props) {
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
+            sx={{color:"white"}}
           >
             <div style={{display:"flex",flexDirection:"row"}}>
               {props.icon2}
@@ -70,6 +73,7 @@ export default function Group(props) {
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
+            sx={{color:"white"}}
           >
             {props.line4}
           </Link>
@@ -81,6 +85,7 @@ export default function Group(props) {
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
+            sx={{color:"white"}}
           >
             {props.line5}
           </Link>
