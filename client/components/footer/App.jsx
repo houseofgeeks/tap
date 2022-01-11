@@ -39,7 +39,7 @@ export default function App() {
         justifyContent="center"
         alignItems="left"
         className={styles.grid}
-        sx={{color:"white"}}
+        sx={{color:"white",marginTop:"2rem"}}
       >
         {Data.map(group)}
       </Grid>
