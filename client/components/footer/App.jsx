@@ -8,7 +8,7 @@ function group(val) {
   return (
     <Grid item>
       <Group
-      xs={2} sm={1} md={4} lg={4}
+      xs={2} sm={2} md={4} lg={4}
         key={val.id}
         title={val.title}
         line1={val.line1}
@@ -34,7 +34,7 @@ export default function App() {
       <Grid
         container
         rowSpacing={2}
-        columnSpacing={{xs: 2, sm: 6, md: 12, lg: 30}}
+        columnSpacing={{xs: 3, sm: 6, md: 12, lg: 30}}
         direction="row"
         justifyContent="center"
         alignItems="left"
