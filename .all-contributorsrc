@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "utkarsh0908",
+      "name": "UTKARSH SINGH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79742157?v=4",
+      "profile": "https://github.com/utkarsh0908",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "tap",
+  "projectOwner": "houseofgeeks",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
