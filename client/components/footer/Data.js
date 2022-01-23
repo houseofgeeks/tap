@@ -1,57 +1,95 @@
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import styles from "../../styles/Footer.module.css"
+import styles from "../../styles/Footer.module.css";
 
 
-const Data=[
+const Data = [
     {
-        id : 1,
-        title: "Quick Access",
-        line1: "B.Tech Course",
-        line2: "M.Tech Course",
-        line3: "Our Alumni",
-        line4: "Photo Gallery",
-        line5: "Visitors",
-        link1: "",
-        link2: "",
-        link3: "",
-        link4: "",
-        link5: "",
+  "Quick Access": [
+    {
+      line: "B.Tech Course",
+      link: "",
+      icon: <div></div>,
+    },
+    {
+        line: "M.Tech Course",
+        link: "",
         icon: <div></div>,
-        icon2: <div></div>
     },
     {
-        id : 2,
-        title: "Student Corner",
-        line1: "Youtube Channel",
-        line2: "Online Resources",
-        line3: "Notifications",
-        line4: "",
-        line5: "",
-        link1: "",
-        link2: "",
-        link3: "",
-        link4: "",
-        link5: "",
+        line: "Our Alumni",
+        link: "",
         icon: <div></div>,
-        icon2: <div></div>,
     },
     {
-        id : 3,
-        title: "Get In Touch",
-        line1: "tap@iiitranchi.ac.in",
-        line2: "tpo@iiitranchi.ac.in",
-        line3: "linkedin/in/tapcell_iiitranchi",
-        line4: "",
-        line5: "",
-        link1: "",
-        link2: "",
-        link3: "",
-        link4: "",
-        link5: "",
-        icon: <EmailIcon className={styles.icon} sx={{fontSize:"2.5vw"}}/>,
-        icon2: <LinkedInIcon className={styles.icon} sx={{fontSize:"2.5vw"}}/>,
+        line: "Photo Gallery",
+        link: "",
+        icon: <div></div>,
     },
-]
-
-export default Data
+    {
+        line: "Visitors",
+        link: "",
+        icon: <div></div>,
+    }
+  ]
+},
+{
+  "Student Corner": [
+      {
+          line: "Youtube Channel",
+          link: "",
+          icon: <div></div>,
+      },
+      {
+          line: "Online Resources",
+          link: "",
+          icon: <div></div>,
+      },
+      {
+          line: "Notifications",
+          link: "",
+          icon: <div></div>,
+      },
+      {
+          line: "",
+          link: "",
+          icon: <div></div>,
+      },
+      {
+          line: "",
+          link: "",
+          icon: <div></div>,
+      },
+  ]
+},
+{
+  "Get In Touch":[
+      {
+          line: "tap@iiitranchi.ac.in",
+          link: "",
+          icon: <EmailIcon className={styles.icon} />,
+      },
+      {
+          line: "tpo@iiitranchi.ac.in",
+          link: "",
+          icon: <EmailIcon className={styles.icon} />,
+      },
+      {
+          line: "linkedin/in/tapcell_iiitranchi",
+          link: "",
+          icon: <LinkedInIcon className={styles.icon}/>,
+      },
+      {
+          line: "",
+          link: "",
+          icon: <div></div>,
+      },
+      {
+          line: "",
+          link: "",
+          icon: <div></div>,
+      }
+  ]
+}
+];
+export default Data;

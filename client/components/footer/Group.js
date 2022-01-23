@@ -28,7 +28,7 @@ export default function Group(props) {
             sx={{color:"white"}}
           >
             <div style={{display:"flex",flexDirection:"row"}}>
-              {props.icon}
+              {props.icon1}
               <span></span>
               {props.line1}
             </div>
@@ -44,7 +44,7 @@ export default function Group(props) {
             sx={{color:"white"}}
           >
             <div style={{display:"flex",flexDirection:"row"}}>
-              {props.icon}
+              {props.icon2}
               <span></span>
               {props.line2}
             </div>
@@ -60,7 +60,7 @@ export default function Group(props) {
             sx={{color:"white"}}
           >
             <div style={{display:"flex",flexDirection:"row"}}>
-              {props.icon2}
+              {props.icon3}
               <span></span>
               {props.line3}
             </div>

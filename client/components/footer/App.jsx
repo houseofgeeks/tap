@@ -5,24 +5,27 @@ import { Grid, Typography,createTheme } from "@mui/material";
 
 
 function group(val) {
+  let key=Object.keys(val)
   return (
     <Grid item>
       <Group
       xs={2} sm={2} md={4} lg={4}
-        key={val.id}
-        title={val.title}
-        line1={val.line1}
-        line2={val.line2}
-        line3={val.line3}
-        line4={val.line4}
-        line5={val.line5}
-        link1={val.link1}
-        link2={val.link2}
-        link3={val.link3}
-        link4={val.link4}
-        link5={val.link5}
-        icon={val.icon}
-        icon2={val.icon2}
+        title={key}
+        line1={val[key][0].line}
+        line2={val[key][1].line}
+        line3={val[key][2].line}
+        line4={val[key][3].line}
+        line5={val[key][4].line}
+        link1={val[key][0].link}
+        link2={val[key][1].link}
+        link3={val[key][2].link}
+        link4={val[key][3].link}
+        link5={val[key][4].link}
+        icon1={val[key][0].icon}
+        icon2={val[key][1].icon}
+        icon3={val[key][2].icon}
+        icon4={val[key][3].icon}
+        icon5={val[key][4].icon}
       />
     </Grid>
   );
