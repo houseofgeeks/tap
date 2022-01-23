@@ -37,7 +37,7 @@ export default function App() {
       <Grid
         container
         rowSpacing={2}
-        columnSpacing={{xs: 3, sm: 6, md: 12, lg: 30}}
+        columnSpacing={{xs:12, sm: 6, md: 12, lg: 30}}
         direction="row"
         justifyContent="center"
         alignItems="left"
