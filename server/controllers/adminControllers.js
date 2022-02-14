@@ -1,5 +1,5 @@
 exports.adminRouteLogin = (req, res) => {
-    res.send('<a href="/auth/google">Authenticate with Google</a>');
+    res.send('<a href="/admin/auth/google">Authenticate with Google</a>');
 }
 
 exports.protectedRoute = (req, res) => {

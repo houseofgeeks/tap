@@ -9,12 +9,12 @@ function isLoggedIn(req, res, next) {
 
 const router = express.Router();
 
-router.route('/admin').get(adminRouteLogin);
+router.route('/').get(adminRouteLogin);
 router.route('/auth/google').get(passport.authenticate('google', { scope: ['email', 'profile'] }));
 router.route("/auth/google/callback").get(
     passport.authenticate('google', {
-        successRedirect: '/protected',
-        failureRedirect: '/auth/google/failure'
+        successRedirect: '/admin/protected',
+        failureRedirect: '/admin/auth/google/failure'
     })
 );
 router.route('/protected').get(isLoggedIn, protectedRoute);
