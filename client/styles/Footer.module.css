@@ -1,0 +1,32 @@
+.link{
+    color: white;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.grid{
+    font-size: 14px;
+    background-color: #25477A;
+    height: auto;
+    padding: 2rem;
+    font-family: "DM Sans";
+}
+
+.title{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.icon{
+    margin-right: 15px;
+}
+.footer{
+    color: white;
+    background-color: #25477A;
+    text-align: center;
+    font-family: "Roboto Mono";
+    height: 3rem;
+    font-size: auto;
+}
