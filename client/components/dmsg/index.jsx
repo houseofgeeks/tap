@@ -15,8 +15,8 @@ const useStyles=makeStyles((theme) => ({
     backgroundColor:"#F3F4F4"
 },
   image:{
-    height:"200px",
-    width:"400px",
+    height:"10rem",
+    width:"20rem",
     margin:"4% 6% 4% 6%",
     position:"relative"
 },
@@ -45,12 +45,13 @@ dName:{
   fontWeight:"bold",
 },
 salutation:{
+  fontWeight:"normal",
     fontSize:"0.8rem"
 },
 
 
 
-// For extra Small to Small Devices
+// For extra Small to Small Devices(0px to 900px)
   [theme.breakpoints.between('xs','md')]:{
 
     container:{
@@ -64,7 +65,8 @@ salutation:{
     image:{
       width:"10rem",
       height:"10rem",
-      marginBottom: "1%"
+      marginBottom: "1%",
+      
     },
 
     header:{
@@ -87,17 +89,21 @@ salutation:{
       padding:"0.5rem"
     },
     salutation:{
+      fontWeight:"normal",
       fontSize:"0.7rem"
   },
     
   },
 
+  //For Medium to large devices(900px to 1520px)
   [theme.breakpoints.between('md','xl')]:{
 
     image:{
-      width:"300px",
-      height:"150px",
-      marginBottom: "1%"
+      
+      width:"30rem",
+      height:"10rem",
+      marginBottom: "1%",
+      marginTop:"5%"
     },
     
   }
