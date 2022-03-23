@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lora&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+
+    font-family: 'Lora', serif;
+}
+.NavMenu{
+    width:100vw;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    padding:16px 64px;
+    list-style-type: none;
+}
+ul li a{
+    color:#25477A;
+    text-decoration: none;
+
+}
+ul li:hover{
+    background-color: #E3E5E5;
+
+}
+.activer{
+    background-color:#E3E5E5;
+    
+}.activer a{
+    color: #25477A;
+}
+a:hover{
+    cursor:context-menu;
+}
+.logo{
+    display:none;
+}
+
+
+@media only screen and (max-width:988px) {
+    
+    
+    ul{
+        display: flex;
+      
+        position: relative;
+        background-color: #25477A;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position:relative;
+      left:-100vw;
+       transition-duration:0.7s;
+     
+     
+    }
+    ul li{
+        padding:16px 0px;
+        width:50vw;
+        text-align: center;
+    }
+    
+    ul li a{
+        color:#E3E5E5;
+     
+    }
+    ul li:hover a{
+        color:#25477A;
+    }
+    ul li:hover{
+        background-color:#E3E5E5;
+      
+    }
+    
+.logo{
+    display: block;
+    height:100px;
+    width:40px;
+    color:#25477A;
+   z-index: 20;
+
+}
+
+
+.active{
+    display:flex;
+    transition-duration:0.7s;
+  left:0vw;}
+
+
+}
+@media only screen and (max-width:256px) {
+    ul li{
+        padding:16px 0px;
+        width:100vw;
+    }
+    ul{
+        width:100vw;
+        display:flex;
+        flex-wrap:wrap;
+    }
+}
