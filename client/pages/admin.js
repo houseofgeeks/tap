@@ -1,4 +1,4 @@
-import { Admin } from "../views/admin"
+import { Admin } from "../views"
 
 export default function admin(){
   return <Admin/>
