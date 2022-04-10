@@ -16,7 +16,7 @@ const adminRouter = require('./routes/admin');
 const app = express();
 
 // MongoDB Connection
-mongoose.connect("mongodb+srv://Abhinav:abhinav123@nodejsproject.pwxex.mongodb.net/abhinavjwt?retryWrites=true&w=majority", async (err) => {
+mongoose.connect(process.env.MONGO_URL, async (err) => {
   if (err)
     throw err;
   console.log("Connected to MongoDB!");

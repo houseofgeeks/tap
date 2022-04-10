@@ -33,7 +33,7 @@ exports.adminLogin = async (req, res) => { //
             return res.send("email or password is invalid");
         }
 
-        const accessToken = jwt.sign({ userRole: user }, "processxxkjsvbdk454163envJWT_SECRETdgsjkggln", { expiresIn: "12h" }); // temporarily
+        const accessToken = jwt.sign({ userRole: user }, process.env.JWT_SECRET, { expiresIn: "12h" }); // temporarily
         return res
                 .cookie("accessToken", accessToken, options)
                 .json({
