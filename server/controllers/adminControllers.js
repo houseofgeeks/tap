@@ -18,19 +18,28 @@ exports.adminLogin = async (req, res) => { //
         const { username, password } = req.body;
 
         if (!username || !password) {
-            res.send("email or password not provided");
+            return res.json({
+                success: false,
+                message:"email or password not provided"
+            });
         }
         const user = await Admin.findOne({ username }).select("+password");
 
         if (!user) {
-            return res.send("email or password not invalid");
+            return res.json({
+                success: false,
+                message:"email or password not provided"
+            });
         }
 
         const isPasswordMatch = await user.comparePassword(password);
         console.log(isPasswordMatch);
 
         if(isPasswordMatch === false) {
-            return res.send("email or password is invalid");
+            return res.json({
+                success: false,
+                message:"email or password not provided"
+            });
         }
 
         const accessToken = jwt.sign({ userRole: user }, process.env.JWT_SECRET, { expiresIn: "12h" }); // temporarily
