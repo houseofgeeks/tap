@@ -1,6 +1,6 @@
 .image img {
   height: 80vh;
-  width: 100vw;
+  width: 100%;
 }
 @media screen and (max-width: 1000px) {
   .image img {
