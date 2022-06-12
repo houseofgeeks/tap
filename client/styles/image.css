@@ -1,0 +1,20 @@
+.image img {
+  height: 80vh;
+  width: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .image img {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .image img {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 320px) {
+  .image img {
+    height: 35vh;
+  }
+}
